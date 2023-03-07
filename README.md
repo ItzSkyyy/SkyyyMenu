@@ -9,5 +9,5 @@
         </a>
 </p>
 <p align="center">
-<img width="250" height="250" src="https://res.cloudinary.com/dvuzxoi9v/image/upload/v1678162087/Untitled_gv7yqc.png">
+<img width="500" height="300" src="https://res.cloudinary.com/dvuzxoi9v/image/upload/v1678162087/Untitled_gv7yqc.png">
 </p>
