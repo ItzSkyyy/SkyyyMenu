@@ -3,16 +3,16 @@
 var menu = document.createElement("div");
 menu.innerHTML = `<div style="width:240px; left: 1px; top: 1px; background-color: #282828EB; color: white; outline: transparent 1px; position:absolute; z-index: 99999; border-radius: 10px;">
 <div id="gui">
-</div> <h1 style="font-size: 32px;">Fireflight</h1>
+</div> <h1 style="font-size: 32px;">Skyyy's Menu</h1>
 <br>
 <h3 style="font-size: 19px; font-style: normal !important; color: white !important;">Skipper</h3>
-<button onclick="skip()">Skip</button>
+<button onclick="skip()">Skip Lesson</button>
 <br><br>
 <h3 style="font-size: 19px; font-style: normal !important; color: white !important;">Farmer</h3>
-<button onclick="farm()">Farm</button>
+<button onclick="farm()">Farm Minutes</button>
 <br><br>
 <h3 style="font-size: 19px; font-style: normal !important; color: white !important;">iFrame</h3>
-<button onclick="iframe()">Get</button>
+<button onclick="iframe()">Get IFrame</button>
 <br><br>
 <h1 style="font-size: 12px; font-style: normal !important; color: white !important;"></h1>
 </div>`
@@ -25,7 +25,7 @@ dragElement(menu.firstElementChild);
 document.body.appendChild(menu);
 
 // runs modified app 21 chunk on startup, required for skipper to work
-fetch('https://raw.githubusercontent.com/notplu/Nullify/main/Data/appchunk/app-21.chunk.js').then(r => r.text()).then(r => eval(r))
+fetch('https://raw.githubusercontent.com/ItzSkyyy/SkyyyMenu/main/app-21.chunk.js').then(r => r.text()).then(r => eval(r))
 
 // skipper code
 function skip() {
