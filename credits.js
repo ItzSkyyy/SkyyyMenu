@@ -25,6 +25,7 @@ black;position: absolute;border-radius: 5px;display: grid;place-items: center;co
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: purple
+    line-height: 1.1;
 }
 .bottomTitle {
     font-family: 'Poppins', sans-serif;
