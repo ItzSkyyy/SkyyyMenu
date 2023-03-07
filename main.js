@@ -108,7 +108,7 @@ function stop_farmer(){
     p2()
 }
 
-function open_Credits(){
+function open_credits(){
     open('https://raw.githubusercontent.com/ItzSkyyy/SkyyyMenu/main/credits.js')
 }
 function open_discord(){
