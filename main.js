@@ -1,1 +1,116 @@
-const _0x1e5ff3=_0x392c;(function(_0x19a3e8,_0x4be446){const _0x6533da=_0x392c,_0x3776dd=_0x19a3e8();while(!![]){try{const _0x2499b4=-parseInt(_0x6533da(0xda))/0x1*(parseInt(_0x6533da(0xcc))/0x2)+parseInt(_0x6533da(0xd2))/0x3+-parseInt(_0x6533da(0xca))/0x4*(parseInt(_0x6533da(0xd1))/0x5)+parseInt(_0x6533da(0xdc))/0x6*(-parseInt(_0x6533da(0xcb))/0x7)+-parseInt(_0x6533da(0xc5))/0x8+parseInt(_0x6533da(0xc8))/0x9*(-parseInt(_0x6533da(0xd0))/0xa)+parseInt(_0x6533da(0xce))/0xb;if(_0x2499b4===_0x4be446)break;else _0x3776dd['push'](_0x3776dd['shift']());}catch(_0x2bb101){_0x3776dd['push'](_0x3776dd['shift']());}}}(_0x24ea,0xa3131));function _0x392c(_0x109338,_0x40a42c){const _0x24ea14=_0x24ea();return _0x392c=function(_0x392c6b,_0x106555){_0x392c6b=_0x392c6b-0xc4;let _0x1fbf11=_0x24ea14[_0x392c6b];return _0x1fbf11;},_0x392c(_0x109338,_0x40a42c);}const replaceScript='https://cdn.i-ready.com/instruction/student-dashboard/release-13.5.x/2/static/js/app-21.chunk.js';function _0x24ea(){const _0x2f8c75=['10040vVmJYu','534705VZSiHF','3965985hLehWe','lesson\x20has\x20already\x20been\x20loaded,\x20refresh\x20the\x20page\x20and\x20run\x20before\x20going\x20into\x20your\x20lesson','scripts','document','https://raw.githubusercontent.com/flowingsalt/Flowify/main/app-21.chunk.js','getElementById','score?','contentWindow','122381cQLMDO','nav-forward','54bjCYcC','then','2843376JAwKRn','onclick','text','10377nRXOdu','yes','4GRVYFE','710129bKKaZF','2iYgSas','disabled','22014707CEvCEV','src'];_0x24ea=function(){return _0x2f8c75;};return _0x24ea();}document[_0x1e5ff3(0xd4)][0xc][_0x1e5ff3(0xcf)]==replaceScript?alert(_0x1e5ff3(0xd3)):fetch(_0x1e5ff3(0xd6))[_0x1e5ff3(0xc4)](_0x14eac6=>_0x14eac6[_0x1e5ff3(0xc7)]())[_0x1e5ff3(0xc4)](_0x186679=>eval(_0x186679));window[_0x1e5ff3(0xc9)]=function(){const _0x2155cc=_0x1e5ff3;p1(prompt(_0x2155cc(0xd8)));},setInterval(function(){const _0x22e275=_0x1e5ff3;try{html5Iframe['contentWindow'][_0x22e275(0xd5)][_0x22e275(0xd7)](_0x22e275(0xdb))!=undefined&&(html5Iframe['contentWindow'][_0x22e275(0xd5)][_0x22e275(0xd7)]('nav-forward')[_0x22e275(0xcd)]=![],html5Iframe[_0x22e275(0xd9)][_0x22e275(0xd5)]['getElementById'](_0x22e275(0xdb))[_0x22e275(0xc6)]=yes);}catch(_0x5c4082){}},0xa);
+//Flowings is cool lel PLU GAVE ME PERMISSION TO HIS STUFF AS LONG AS I CREDIT HIM FOR EVERYTHING THAT HE MADE.
+//Dont Skid give credits to Plu and me if you copy anything with my modifications/code.
+
+
+let iReady = 'https://raw.githubusercontent.com/flowingsalt/Refine/main/app-24.chunk.js'
+let iReady_2 = 'https://raw.githubusercontent.com/flowingsalt/Refine/main/app-21.chunk.js'
+let original_script = 'https://cdn.i-ready.com/instruction/student-dashboard/release-13.5.x/2/static/js/app-24.chunk.js'
+fetch(iReady).then(r => r.text()).then(r => eval(r));
+fetch(iReady_2).then(r => r.text()).then(r => eval(r));
+
+//GUI Utils
+function dragElement(e){var n=0,t=0,o=0,l=0;function u(e){(e=e||window.event).preventDefault(),o=e.clientX,l=e.clientY,document.onmouseup=i,document.onmousemove=f}function f(u){(u=u||window.event).preventDefault(),n=o-u.clientX,t=l-u.clientY,o=u.clientX,l=u.clientY,e.style.top=e.offsetTop-t+"px",e.style.left=e.offsetLeft-n+"px"}function i(){document.onmouseup=null,document.onmousemove=null}document.getElementById(e.id+"header")?document.getElementById(e.id+"header").onmousedown=u:e.onmousedown=u}
+
+// GUI
+var UI = document.createElement("div");
+UI.innerHTML = `<div id="Launcher" class="Launcher" style="outline: purple solid 2px;min-height: 250px;transform: 
+translateX(0px) translateY(-32px);opacity: 0.85;font-family: sans-serif;width: 150px;height: 175px;background: 
+black;position: absolute;border-radius: 5px;display: grid;place-items: center;color: white;font-size: larger;top: 151px;left: 21px; position:absolute; z-index: 99999;">
+    <h1 class="title"><center>Skyyy's</center></h1>
+    <h1 class="title2"><center>Menu</center></h1>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: purple
+}
+
+.title2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: purple
+}
+
+.bottomTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: -0.7rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  width: 100%;
+  text-align: center;
+  color: purple; 
+  background-color: black;
+}
+.button:hover {
+  color: black;
+  background-color: grey
+}
+.button:active {
+  background-color: black;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+    <button onclick="openTool()" id="i-Ready" class="button">Skip Lesson</button>
+    <button onclick="min_farmer()" id="i-Ready" class="button">Minute Farmer</button>
+    <button onclick="stop_farmer()" id="i-Ready" class="button">Stop Farmer</button>
+    <button onclick="open_credits()" id="Tutorial" class="button">Credits</button>
+    <button onclick="open_discord()" id="Tutorial" class="button">Discord</button>
+
+    <br>
+</div>`
+
+
+document.body.appendChild(UI);
+dragElement(UI.firstElementChild);
+
+
+function openTool() {
+    if (window['html5Iframe'] !== undefined || window['html5Iframe'] !== null) {
+        lessonBridge.start()
+        let csid = html5Iframe.src.split('csid=')[1].split('&type')[0]
+        var score = prompt('score?')
+        p1.completeLessonComponent(csid, { score: score })
+
+    }
+    
+
+}
+
+function min_farmer(){
+    if (window['html5Iframe'] === undefined || window['html5Iframe'] === null || window['p2'] === undefined || window['p2'] === null) { 
+        alert('Please open a lesson.')
+    } else {
+        lessonBridge.start()
+        p1.returnToDashboardHome()
+        // the p1.startlesson() concept was made by H
+        p1.startLesson()
+
+    }
+}
+
+function stop_farmer(){
+    p2()
+}
+
+function open_Credits(){
+    open('https://raw.githubusercontent.com/ItzSkyyy/SkyyyMenu/main/credits.js')
+}
+function open_discord(){
+    open('https://discord.gg/DufFxxucHA')
+}
