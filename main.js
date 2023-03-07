@@ -84,7 +84,7 @@ function openTool() {
     if (window['html5Iframe'] !== undefined || window['html5Iframe'] !== null) {
         lessonBridge.start()
         let csid = html5Iframe.src.split('csid=')[1].split('&type')[0]
-        var score = prompt('score?')
+        var score = prompt('What score do you want?')
         p1.completeLessonComponent(csid, { score: score })
 
     }
@@ -92,7 +92,7 @@ function openTool() {
 
 }
 
-function min_farmer(){
+function min_farmer() {
     if (window['html5Iframe'] === undefined || window['html5Iframe'] === null || window['p2'] === undefined || window['p2'] === null) { 
         alert('Please open a lesson.')
     } else {
@@ -104,13 +104,13 @@ function min_farmer(){
     }
 }
 
-function stop_farmer(){
+function stop_farmer() {
     p2()
 }
 
-function open_credits(){
+function open_credits() {
     open('https://raw.githubusercontent.com/ItzSkyyy/SkyyyMenu/main/credits.js')
 }
-function open_discord(){
+function open_discord() {
     open('https://discord.gg/DufFxxucHA')
 }
