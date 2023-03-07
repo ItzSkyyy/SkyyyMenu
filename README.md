@@ -2,7 +2,7 @@
 <h3 align="center">The Greatest I-Ready Menu</h3>
 <p align="center">Creator | <a href="https://github.com/ItzSkyyy/">ItzSkyyy</a>
 <p></p>
-<p align="center">Inpiration | <a href="https://github.com/flowingsalt">flowingsalt</a>.
+<p align="center">Inpiration | <a href="https://github.com/flowingsalt">flowingsalt</a>
 <h2 align="center"><a href="https://discord.gg/DufFxxucHA">Skyyy's Discord</a></h2>
 
 <p align="center">
