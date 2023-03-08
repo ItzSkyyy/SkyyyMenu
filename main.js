@@ -69,10 +69,13 @@ black;position: absolute;border-radius: 5px;display: grid;place-items: center;co
     <button onclick="openTool()" id="i-Ready" class="button">Skip Lesson</button>
     <button onclick="min_farmer()" id="i-Ready" class="button">Minute Farmer</button>
     <button onclick="stop_farmer()" id="i-Ready" class="button">Stop Farmer</button>
-    <button onclick="open_credits()" id="Tutorial" class="button">Credits</button>
+    <button id="Credits" class="button">Credits</button>
     <button onclick="open_discord()" id="Tutorial" class="button">Discord</button>
+   <br>
+   
+   document.getElementById("Credits").addEventListener("click", open_credits);
 
-    <br>
+   
 </div>`
 
 
