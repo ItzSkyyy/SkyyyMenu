@@ -94,15 +94,7 @@ function openTool() {
 
 }
 
-function min_farmer() {
-    if (window['html5Iframe'] === undefined || window['html5Iframe'] === null || window['p2'] === undefined || window['p2'] === null) { 
-        alert('Please open a lesson.')
-    } else {
-        lessonBridge.start()
-        p1.returnToDashboardHome()
-        // the p1.startlesson() concept was made by H
-        p1.startLesson()
-
+function min_farmer() {var _0x228c4f=_0x2b9c90;const _0x35c189=document[_0x228c4f(0x9a)](_0x228c4f(0x9f));_0x35c189===undefined||_0x35c189===null?alert(_0x228c4f(0x8a)):(html5Iframe[_0x228c4f(0x97)][_0x228c4f(0x89)]['cheats']='{\x22timeoutValue\x22:\x221000000000000000000\x22,\x22timeoutMode\x22:true}',alert('Enabled.\x20Exit\x20this\x20lesson\x20and\x20reopen\x20it\x20to\x20start\x20farming.\x20Minutes\x20Farmer\x20will\x20stay\x20enabled\x20for\x20all\x20lessons\x20until\x20you\x20log\x20out.\x20You\x20will\x20only\x20gain\x20minutes\x20while\x20inside\x20of\x20a\x20lesson.\x20-J6X'),alert('Going\x20onto\x20a\x20new\x20tab\x20will\x20prevent\x20Minutes\x20Farmer\x20from\x20working.\x20Putting\x20a\x20new\x20tab\x20on\x20a\x20seperate\x20window\x20should\x20solve\x20this.'),html5Iframe[_0x228c4f(0x97)]['document']['getElementById'](_0x228c4f(0xae))[_0x228c4f(0xbf)]());}function ugames(){var _0x4cdbd6=_0x2b9c90;window[_0x4cdbd6(0xa4)](_0x4cdbd6(0xbd)),alert('opened.');}function namechanger(){var _0x23905b=_0x2b9c90;let _0x52c2c5=prompt(_0x23905b(0xa8),'Type\x20here.');document['getElementsByClassName'](_0x23905b(0x99))[0x0][_0x23905b(0xb0)]=_0x52c2c5;}
     }
 }
 
