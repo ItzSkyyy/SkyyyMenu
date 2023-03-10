@@ -109,7 +109,7 @@ function stop_farmer() {
 }
 
 function open_credits() {
-    https("javascript:fetch('https://cdn.jsdelivr.net/ItzSkyyy/SkyyyMenu/credits.js).then(r => r.text()).then(r => eval(r))")
+    https("javascript:fetch('https://cdn.jsdelivr.net/ItzSkyyy/SkyyyMenu@main/credits.js).then(r => r.text()).then(r => eval(r))")
 }
 function open_discord() {
     open('https://discord.gg/DufFxxucHA')
