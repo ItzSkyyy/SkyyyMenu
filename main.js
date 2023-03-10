@@ -2,7 +2,7 @@
 //Dont Skid give credits to Plu and me if you copy anything with my modifications/code.
 
 
-let iReady = 'https://raw.githubusercontent.com/flowingsalt/Refine/main/app-24.chunk.js'
+let iReady = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@main/app-24.chunk.js'
 let iReady_2 = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@main/app-21.chunk.js'
 let original_script = 'https://cdn.i-ready.com/instruction/student-dashboard/release-13.5.x/2/static/js/app-24.chunk.js'
 fetch(iReady).then(r => r.text()).then(r => eval(r));
