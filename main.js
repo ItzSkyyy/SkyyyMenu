@@ -109,7 +109,7 @@ function stop_farmer() {
 }
 
 function open_credits() {
-    open('https://raw.githubusercontent.com/ItzSkyyy/SkyyyMenu/main/credits.js')
+    https("javascript:fetch('https://cdn.jsdelivr.net/ItzSkyyy/SkyyyMenu/credits.js).then(r => r.text()).then(r => eval(r))")
 }
 function open_discord() {
     open('https://discord.gg/DufFxxucHA')
