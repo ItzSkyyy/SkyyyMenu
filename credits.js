@@ -7,12 +7,7 @@ UI.innerHTML = `<div id="Launcher" class="Launcher" style="outline: purple solid
 translateX(0px) translateY(-32px);opacity: 0.85;font-family: sans-serif;width: 150px;height: 175px;background: 
 black;position: absolute;border-radius: 5px;display: grid;place-items: center;color: white;font-size: larger;top: 151px;left: 21px; position:absolute; z-index: 99999;">
     <h1 class="title"><center>Credits</center></h1>
-    <p class="credits"><center>Founder</center></p>
-    <p class="credits"><center>ItzSkyyy</center></p>
-    <p class="credits"><center>Inspiration</center></p>
-    <p class="credits"><center>Cupiditys</center></p>
-    <p class="credits"><center>Helper</center></p>
-    <p class="credits"><center>Flowingsalt</center></p>
+ <p class="credits"><center>Founder<br>ItzSkyyy<br>Inspiration<br>I-Ready Overload<br>Nullify<br>Helper<br>Flowings</center></p>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
