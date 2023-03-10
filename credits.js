@@ -58,5 +58,3 @@ black;position: absolute;border-radius: 5px;display: grid;place-items: center;co
 
 document.body.appendChild(UI);
 dragElement(UI.firstElementChild);
-
-}
