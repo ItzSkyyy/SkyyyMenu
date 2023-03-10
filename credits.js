@@ -7,7 +7,12 @@ UI.innerHTML = `<div id="Launcher" class="Launcher" style="outline: purple solid
 translateX(0px) translateY(-32px);opacity: 0.85;font-family: sans-serif;width: 150px;height: 175px;background: 
 black;position: absolute;border-radius: 5px;display: grid;place-items: center;color: white;font-size: larger;top: 151px;left: 21px; position:absolute; z-index: 99999;">
     <h1 class="title"><center>Credits</center></h1>
-    <p class="credits"><center>Founder\nItzSkyyy\nInspiration\nI-Ready Overload\nNullify\nHelper\nFlowings</center></p>
+    <p class="credits"><center>Founder</center></p>
+    <p class="credits"><center>ItzSkyyy</center></p>
+    <p class="credits"><center>Inspiration</center></p>
+    <p class="credits"><center>Cupiditys</center></p>
+    <p class="credits"><center>Helper</center></p>
+    <p class="credits"><center>Flowingsalt</center></p>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
@@ -20,7 +25,6 @@ black;position: absolute;border-radius: 5px;display: grid;place-items: center;co
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     color: purple
-    line-height: 1.1;
 }
 .bottomTitle {
     font-family: 'Poppins', sans-serif;
@@ -59,16 +63,5 @@ black;position: absolute;border-radius: 5px;display: grid;place-items: center;co
 
 document.body.appendChild(UI);
 dragElement(UI.firstElementChild);
-
-
-function openTool() {
-    if (window['html5Iframe'] !== undefined || window['html5Iframe'] !== null) {
-        lessonBridge.start()
-        let csid = html5Iframe.src.split('csid=')[1].split('&type')[0]
-        var score = prompt('score?')
-        p1.completeLessonComponent(csid, { score: score })
-
-    }
-    
 
 }
