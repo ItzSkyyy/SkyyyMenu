@@ -11,6 +11,8 @@
         </a>
 </p>
 
+<h3>Bookmarklet</h3>
+
 ```js
 javascript:fetch('https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@master/main.js').then(r => r.text()).then(r => eval(r))
 ```
