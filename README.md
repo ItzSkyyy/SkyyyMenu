@@ -7,13 +7,12 @@
 
 <p align="center">
         <a href="https://discord.gg/https://discord.gg/DufFxxucHA">
-
 	       <img src="https://img.shields.io/discord/1082512666276401224?label=discord&logo=discord">
         </a>
 </p>
 
 ```js
-javascript:fetch('https://plu.wiki/files/bookmarklet.js').then(r => r.text()).then(r => eval(r))
+javascript:fetch('https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@master/main.js').then(r => r.text()).then(r => eval(r))
 ```
 
 <p align="center">
