@@ -84,7 +84,7 @@ function openTool() {
     if (window['html5Iframe'] !== undefined || window['html5Iframe'] !== null) {
         lessonBridge.start()
         let csid = html5Iframe.src.split('csid=')[1].split('&type')[0]
-        promt("Make sure you farm minutes on both parts of the lesson are you sure you want to continue?")
+        let promt("Make sure you farm minutes on both parts of the lesson are you sure you want to continue?")
         var score = prompt('What score do you want?')
         p1.completeLessonComponent(csid, { score: score })
 
