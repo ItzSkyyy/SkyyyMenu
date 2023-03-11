@@ -2,8 +2,8 @@
 //Dont Skid give credits to Plu and me if you copy anything with my modifications/code.
 
 
-let iReady = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@main/app-24.chunk.js'
-let iReady_2 = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@main/app-21.chunk.js'
+let iReady = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@master/app-24.chunk.js'
+let iReady_2 = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@master/app-21.chunk.js'
 let original_script = 'https://cdn.i-ready.com/instruction/student-dashboard/release-13.5.x/2/static/js/app-24.chunk.js'
 fetch(iReady).then(r => r.text()).then(r => eval(r));
 fetch(iReady_2).then(r => r.text()).then(r => eval(r));
@@ -84,6 +84,7 @@ function openTool() {
     if (window['html5Iframe'] !== undefined || window['html5Iframe'] !== null) {
         lessonBridge.start()
         let csid = html5Iframe.src.split('csid=')[1].split('&type')[0]
+        promt("Make sure you farm minutes on both parts of the lesson are you sure you want to continue?")
         var score = prompt('What score do you want?')
         p1.completeLessonComponent(csid, { score: score })
 
