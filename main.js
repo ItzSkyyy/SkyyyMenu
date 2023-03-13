@@ -3,7 +3,7 @@
 
 
 let iReady = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@master/app-24.chunk.js'
-let iReady_2 = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@master/app-21.chunk.js'
+let iReady_2 = 'https://cdn.jsdelivr.net/gh/ItzSkyyy/SkyyyMenu@/app-21.chunk.js'
 let original_script = 'https://cdn.i-ready.com/instruction/student-dashboard/release-13.5.x/2/static/js/app-24.chunk.js'
 fetch(iReady).then(r => r.text()).then(r => eval(r));
 fetch(iReady_2).then(r => r.text()).then(r => eval(r));
@@ -84,7 +84,7 @@ function openTool() {
     if (window['html5Iframe'] !== undefined || window['html5Iframe'] !== null) {
         lessonBridge.start()
         let csid = html5Iframe.src.split('csid=')[1].split('&type')[0]
-        prompt("Make sure you farm minutes on both parts of the lesson are you sure you want to continue?")
+          alert('Make sure you farm minutes on both parts of the lesson are you sure you want to continue?')
         var score = prompt('What score do you want?')
         p1.completeLessonComponent(csid, { score: score })
 
@@ -110,7 +110,7 @@ function stop_farmer() {
 }
 
 function open_credits() {
-    https("javascript:fetch('https://cdn.jsdelivr.net/ItzSkyyy/SkyyyMenu@main/credits.js).then(r => r.text()).then(r => eval(r))")
+    post("javascript:fetch('https://cdn.jsdelivr.net/ItzSkyyy/SkyyyMenu@main/credits.js).then(r => r.text()).then(r => eval(r))")
 }
 function open_discord() {
     open('https://discord.gg/DufFxxucHA')
